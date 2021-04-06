@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        app:layout_constraintCircleRadius="0dip">
+
+        <Button
+            android:id="@+id/sevenBtn"
+            style="@style/darkButton"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="@string/seven_text" />
+
+        <Button
+            android:id="@+id/eightBtn"
+            style="@style/darkButton"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="@string/eight_text" />
+
+        <Button
+            android:id="@+id/nineBtn"
+            style="@style/darkButton"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="@string/nine_text" />
+
+
+        <Button
+            android:id="@+id/fourBtn"
+            style="@style/darkButton"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="@string/four_text" />
+
+        <Button
+            android:id="@+id/fiveBtn"
+            style="@style/darkButton"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="@string/five_text" />
+
+        <Button
+            android:id="@+id/sixBtn"
+            style="@style/darkButton"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:text="@string/six_text" />
+
+        <Button
+            android:id="@+id/oneBtn"
+            style="@style/darkButton"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="@string/one_text" />
+
+        <Button
+            android:id="@+id/twoBtn"
+            style="@style/darkButton"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="@string/two_text" />
+
+        <Button
+            android:id="@+id/threeBtn"
+            style="@style/darkButton"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:text="@string/three_text" />
+
+        <Button
+            android:id="@+id/dotBtn"
+            style="@style/darkButton"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="@string/dot_text" />
+
+        <Button
+            android:id="@+id/zeroBtn"
+            style="@style/darkButton"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:text="@string/zero_text" />
+
+        <Button
+            android:id="@+id/equalBtn"
+            style="@style/darkButton"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:text="@string/equal_text" />
+
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        app:layout_constraintCircleRadius="0dip">
+
+
+        <Button
+            android:id="@+id/delBtn"
+            style="@style/darkButton"
+            android:textSize="30sp"
+            android:backgroundTint="@color/gray"
+            android:layout_height="100dp"
+            android:text="@string/del_text" />
+
+        <Button
+            android:id="@+id/divisionBtn"
+            style="@style/darkButton"
+            android:backgroundTint="@color/gray"
+            android:layout_height="100dp"
+            android:textSize="30sp"
+            android:text="@string/division_text" />
+
+        <Button
+            android:id="@+id/multiplicationBtn"
+            style="@style/darkButton"
+            android:textSize="30sp"
+            android:backgroundTint="@color/gray"
+            android:layout_height="100dp"
+            android:text="@string/multiplication_text" />
+
+        <Button
+            android:id="@+id/subtractionBtn"
+            style="@style/darkButton"
+            android:backgroundTint="@color/gray"
+            android:layout_height="100dp"
+            android:textSize="30sp"
+            android:text="@string/subtraction_text" />
+
+        <Button
+            android:id="@+id/additionBtn"
+            style="@style/darkButton"
+            android:backgroundTint="@color/gray"
+            android:layout_height="100dp"
+            android:textSize="30sp"
+            android:text="@string/addition_text" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="500dp"
+        android:backgroundTint="@color/teal"
+        style="@style/darkButton"
+        android:clickable="false"
+        android:focusable="false" />
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/inputTV"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:fadeScrollbars="false"
+        android:paddingStart="@dimen/input_layout_margin_big"
+        android:paddingTop="@dimen/input_layout_margin_big"
+        android:paddingEnd="@dimen/input_layout_margin_big"
+        android:scrollbars="horizontal"
+        android:text="@string/inputTV_default_value"
+        android:textAlignment="textEnd"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/input_text_size"/>
+
+    <TextView
+        android:id="@+id/resultTV"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="@dimen/result_text_size"
+        android:textAlignment="textEnd"
+        android:paddingStart="@dimen/input_layout_margin_big"
+        android:paddingEnd="@dimen/input_layout_margin_big"
+        android:paddingBottom="@dimen/input_layout_margin_big"
+        android:textColor="@color/gray"
+        android:text="@string/resultTV_default_value"/>
+
+</LinearLayout>

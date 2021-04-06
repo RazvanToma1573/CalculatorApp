@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CalculatorApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="inputTV_default_value">0</string>
+    <string name="resultTV_default_value">0</string>
+    <string name="seven_text">7</string>
+    <string name="eight_text">8</string>
+    <string name="nine_text">9</string>
+    <string name="three_text">3</string>
+    <string name="two_text">2</string>
+    <string name="one_text">1</string>
+    <string name="six_text">6</string>
+    <string name="five_text">5</string>
+    <string name="four_text">4</string>
+    <string name="dot_text">.</string>
+    <string name="zero_text">0</string>
+    <string name="equal_text">=</string>
+    <string name="del_text">DEL</string>
+    <string name="division_text">÷</string>
+    <string name="multiplication_text">x</string>
+    <string name="subtraction_text">-</string>
+    <string name="addition_text">+</string>
+</resources>

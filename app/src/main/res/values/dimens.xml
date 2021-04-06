@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="input_layout_margin_big">40dp</dimen>
+    <dimen name="input_layout_margin_medium">20dp</dimen>
+    <dimen name="input_text_size">60sp</dimen>
+    <dimen name="result_text_size">40sp</dimen>
+    <dimen name="button_text_size">40sp</dimen>
+</resources>
